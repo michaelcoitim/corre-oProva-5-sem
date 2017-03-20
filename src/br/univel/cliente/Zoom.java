@@ -9,7 +9,9 @@ import br.univel.comum.Plact;
 
 public class Zoom extends Thread implements Runnable, Plact{
 
-	private Integer vlr = null;
+	private Integer vlr = null; 
+	
+	
 	
 	public Zoom() throws Exception{
 		Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1818);
